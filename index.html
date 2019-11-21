@@ -3,9 +3,171 @@
 <head>
     <title>Exercise 1</title>
 </head>
+<style>
+    div {
+        border-radius: 5px;
+    }
+    #header {
+        position: fixed;
+        z-index: 1;
+        height:40px;
+        width: 98%;
+        background-color: #668284;
+        margin-bottom: 10px
+    }
+    #name {
+        float:left;
+        margin-left: 20px;
+        padding-bottom: 10px;
+        font-size: 16px;
+        font-family: Verdana, sans-serif;
+        color: #ffffff;
+    }
+    #email {
+        float:right;
+        margin-right: 20px;
+	    padding-bottom: 10px;
+	    font-size: 16px;
+	    font-family: Verdana, sans-serif;
+	    color: #ffffff;
+    }
+
+    #contact {
+        margin-left:45%;
+        padding-bottom: 10px;
+	    font-size: 16px;
+	    font-family: Verdana, sans-serif;
+	    color: #ffffff;
+    }
+
+    a:hover {
+        font-weight: bold;
+    }
+
+    .right {
+        float: left;
+        margin-top: 50px;
+        padding-left:5px;
+        /*margin-right: -10px;
+        margin-left: 14%;*/
+        height: auto;
+        width: 99%;
+        background-color: #E3EDD8;
+    }
+
+    /*.left
+    {
+        float: left;
+        margin-top: 50px;
+        /*margin-right: -90px;
+        height: relative;
+        width: 10%;
+        background-color: #4160E8;
+        }*/
+    
+    #footer {
+        height:40px;
+        clear:both;
+        position: relative;
+        background-color: #C1E3E1;
+    }
+    
+    h3 {
+        text-decoration: underline;
+    }
+
+    #job-responsibilities {
+        padding: 1px;
+    }
+    
+    .job-title {
+        font-weight: bold;
+    }
+
+    table {
+        border: 1px dashed black;
+    }
+
+    td {
+        padding: 2px;
+        border: 1px solid #E88741;
+    }
+
+    #course-name {
+        font-weight:bold;
+    }
+
+    #company-name {
+        height:2px;
+        text-decoration:underline;
+    }
+
+    #job-title
+    {
+        height: 5px;
+    }
+
+    .job-duration
+    {
+        float:right;
+    }
+
+    #heading
+    {
+        font-weight:bold;
+    }
+</style>
 <body>
     <center>
         <h1>Biodata</h1>
     </center>
+        <div id="header">
+            <p id="name">Muhammad Raihan NismaraJendra</p>
+            <a href="mailto:raihannismara@gmail.com" target="_blank"><p id="email">raihannismara@gmail.com</p></a>
+        </div>
+        <div class="left">
+        </div>
+        <div class="right">
+            <h3>CV Highlights</h3>
+            <p>
+                <ul>
+                    <li>An independent, dedicated, efficient person. These attributes are proved through the series of courses I have taken or I am taking as of now independently through online platforms.</li>
+                    <li>Good Communication Skills, Presentation Skills, attitude towards leadership, authorisation and delegation, conflict resolution and negotiation and a very good team worker.</li></ul>
+            </p>
+            <h3>Professional Experience</h3>
+            <h4 id="company-name">BelanjaQu</h4>
+            <p id="job-title"><strong>Front-End Developer</strong></p>
+            <p id="job-responsibilities">Job Responsbilities</p>
+            <p>
+                <ul>
+                    <li>Maintance the web app</li>
+                    <li>Creating new feature</li>
+                    <li>Fixing bugs</li>
+                    <li>Solving production issues</li>
+                </ul>
+            </p>
+            <h4 id="company-name">Ednovate Indonesia</h4>
+            <p id="job-title"><strong>Junior Developer</strong></p>
+            <p id="job-responsibilities">Job Responsbilities</p>
+            <p>
+                <ul>
+                    <li>Maintance the web app</li>
+                    <li>Creating new feature</li>
+                    <li>Fixing bugs</li>
+                </ul>
+            </p>
+            <h3>Personal Information:</h3>
+            <p>
+                <ul>
+                    <li>
+                    Mid-level programmer, love to meet new people, travelling
+                    <li>
+                    <span id="course-name">Languages Known:</span>English, Indonesia</li>
+                    <li>
+                    <span id="course-name">Hobbies:</span>I love reading Finance and IT related books, swimming, surfing Internet, self-learning through e-courses.</li>
+                </ul>
+            </p>
+        </div>
+        <div id="footer"></div>
 </body>
 </html>
